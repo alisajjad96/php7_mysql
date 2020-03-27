@@ -1,4 +1,4 @@
-#php7_mysql
+# php7_mysql
 
 A simple PHP Mysqli Wrapper(prepare statements) with Result collection object which provides basic functionality.
 
