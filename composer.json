@@ -1,0 +1,38 @@
+{
+    "name": "alisajjad/php7_mysql",
+    "description": "A simple PHP Mysqli Wrapper(prepare statements) with Result collection object which provides basic functionality.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "alisajjad96",
+            "email": "alisajjad1272@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHP7MySql\\": ""
+        },
+        "files": [
+            "includes/trait.php",
+            "includes/DB.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ],
+        "files": [
+
+        ]
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "ext-mysqli": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
